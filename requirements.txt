@@ -1,0 +1,5 @@
+git+https://github.com/modelscope/DiffSynth-Studio.git@11315d7
+transformers==4.57.3
+torch==2.9.1
+diffusers==0.38.0
+qwen-vl-utils==0.0.14
