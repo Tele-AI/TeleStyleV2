@@ -57,7 +57,7 @@ We provide Gradio inference code. Please note that there are minor changes in th
 
 #### diffusers
 ```
-python gradio_telestylev2_QIE2509_dmd_diffuers.py.
+python gradio_telestylev2_QIE2509_dmd_diffusers.py.
 ```
 
 
