@@ -18,8 +18,8 @@ Given a content reference and a style reference, content-preserving style transf
 
  ![alt text](./static/images/compare.png)
 ## Latest News
-- Jan 11, 2026: We release a [free online demo for TeleStyleV2-QIE-2509-Lora-DMD ](https://huggingface.co/spaces/witcherderivia/TeleStyleV2) for diffusers model.  We also release the diffsynth version of [TeleStyle-QIE-2509-Lora](https://huggingface.co/Tele-AI/TeleStyleV2/blob/main/diffsynth-TeleStyleV2-QIE-2509-Lora-bf16.safetensors). Please light a star to support this project if you find the demo useful.
-- June 10, 2026: We release the <a href="http://arxiv.org/abs/2601.20175" target="_blank">technical report and project page </a> of TeleStyleV2. We release the diffusers version of  [TeleStyle-QIE-2509-Lora](https://huggingface.co/Tele-AI/TeleStyleV2/blob/main/diffusers-TeleStyleV2-QIE-2509-Lora-bf16.safetensors). 
+- Jan 11, 2026: We release a [free online demo for TeleStyleV2-QIE-2509-Lora-DMD ](https://huggingface.co/spaces/witcherderivia/TeleStyleV2) for diffusers model.  We also release the diffsynth version of [TeleStyleV2-QIE-2509-Lora](https://huggingface.co/Tele-AI/TeleStyleV2/blob/main/diffsynth-TeleStyleV2-QIE-2509-Lora-bf16.safetensors). Please light a star to support this project if you find the demo useful.
+- June 10, 2026: We release the <a href="http://arxiv.org/abs/2601.20175" target="_blank">technical report and project page </a> of TeleStyleV2. We release the diffusers version of  [TeleStyleV2-QIE-2509-Lora](https://huggingface.co/Tele-AI/TeleStyleV2/blob/main/diffusers-TeleStyleV2-QIE-2509-Lora-bf16.safetensors). 
 - March, 2026: We finished training of TeleStyleV2.
 ## Schedule
 
