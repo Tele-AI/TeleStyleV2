@@ -7,7 +7,7 @@
 <br>
 <div align="center">
     [<a href="https://witcherofresearch.github.io/TeleStyleV2/" target="_blank">Project Page</a>]
-    [<a href="https://witcherofresearch.github.io/TeleStyleV2/" target="_blank">Paper</a>]
+    [<a href="https://arxiv.org/abs/2606.20709" target="_blank">Paper</a>]
     [<a href="https://huggingface.co/Tele-AI/TeleStyleV2" target="_blank">Model</a>]
     [<a href="https://github.com/Tele-AI/TeleStyleV2" target="_blank">Code</a>]
     [<a href="https://huggingface.co/spaces/witcherderivia/TeleStyleV2" target="_blank">Demo</a>]
