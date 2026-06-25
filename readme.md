@@ -10,7 +10,8 @@
     [<a href="https://arxiv.org/abs/2606.20709" target="_blank">Paper</a>]
     [<a href="https://huggingface.co/Tele-AI/TeleStyleV2" target="_blank">Model</a>]
     [<a href="https://github.com/Tele-AI/TeleStyleV2" target="_blank">Code</a>]
-    [<a href="https://huggingface.co/spaces/witcherderivia/TeleStyleV2" target="_blank">Demo</a>]
+    [<a href="https://huggingface.co/spaces/witcherderivia/TeleStyleV2" target="_blank">Demo-2509</a>]
+    [<a href="https://huggingface.co/spaces/witcherderivia/TeleStyleV2-QIE2511" target="_blank">Demo-2511</a>]
 </div>
 
 ## Abstract
@@ -18,7 +19,8 @@ Given a content reference and a style reference, content-preserving style transf
 
  ![alt text](./static/images/compare.png)
 ## Latest News
-- Jan 11, 2026: We release a [free online demo for TeleStyleV2-QIE-2509-Lora-DMD ](https://huggingface.co/spaces/witcherderivia/TeleStyleV2) for diffusers model.  We also release the diffsynth version of [TeleStyleV2-QIE-2509-Lora](https://huggingface.co/Tele-AI/TeleStyleV2/blob/main/diffsynth-TeleStyleV2-QIE-2509-Lora-bf16.safetensors). Please light a star to support this project if you find the demo useful.
+- June 25, 2026: We release [TeleStyleV2-QIE-2511-Lora demo](https://huggingface.co/spaces/witcherderivia/TeleStyleV2-QIE2511). 
+- June 11, 2026: We release a [free online demo for TeleStyleV2-QIE-2509-Lora-DMD ](https://huggingface.co/spaces/witcherderivia/TeleStyleV2) for diffusers model.  We also release the diffsynth version of [TeleStyleV2-QIE-2509-Lora](https://huggingface.co/Tele-AI/TeleStyleV2/blob/main/diffsynth-TeleStyleV2-QIE-2509-Lora-bf16.safetensors). Please light a star to support this project if you find the demo useful.
 - June 10, 2026: We release the <a href="http://arxiv.org/abs/2601.20175" target="_blank">technical report and project page </a> of TeleStyleV2. We release the diffusers version of  [TeleStyleV2-QIE-2509-Lora](https://huggingface.co/Tele-AI/TeleStyleV2/blob/main/diffusers-TeleStyleV2-QIE-2509-Lora-bf16.safetensors). 
 - March, 2026: We finished training of TeleStyleV2.
 ## Schedule
@@ -26,7 +28,7 @@ Given a content reference and a style reference, content-preserving style transf
 
 - [ ] Release TeleStyleV2 FLUX 2 models.
 - [ ] Release TeleStyleV2-QIE2511-Full models.
-- [ ] Release TeleStyleV2-QIE2511-Lora models.
+- [x] Release TeleStyleV2-QIE2511-Lora models.
 - [ ] Release TeleStyleV2-QIE2509-Full models.
 - [x] Release TeleStyleV2-QIE2509-Lora-DMD Demo.
 - [x] Release TeleStyleV2-QIE2509-Lora models for diffusers and diffsynth.
