@@ -19,6 +19,7 @@ Given a content reference and a style reference, content-preserving style transf
 
  ![alt text](./static/images/compare.png)
 ## Latest News
+- June, 2026: We found that TeleStyleV2 has been integrated by fal.ai at [fal-ai/telestyle-v2](https://fal.ai/models/fal-ai/telestyle-v2/api) and mlx-community at  [mlx-community/TeleStyleV2-Qwen-Image-Edit-2511-bf16](https://huggingface.co/mlx-community/TeleStyleV2-Qwen-Image-Edit-2511-bf16). Thanks to the community for supporting the project. 
 - June 25, 2026: We release [TeleStyleV2-QIE-2511-Lora demo](https://huggingface.co/spaces/witcherderivia/TeleStyleV2-QIE2511). 
 - June 11, 2026: We release a [free online demo for TeleStyleV2-QIE-2509-Lora-DMD ](https://huggingface.co/spaces/witcherderivia/TeleStyleV2) for diffusers model.  We also release the diffsynth version of [TeleStyleV2-QIE-2509-Lora](https://huggingface.co/Tele-AI/TeleStyleV2/blob/main/diffsynth-TeleStyleV2-QIE-2509-Lora-bf16.safetensors). Please light a star to support this project if you find the demo useful.
 - June 10, 2026: We release the <a href="http://arxiv.org/abs/2601.20175" target="_blank">technical report and project page </a> of TeleStyleV2. We release the diffusers version of  [TeleStyleV2-QIE-2509-Lora](https://huggingface.co/Tele-AI/TeleStyleV2/blob/main/diffusers-TeleStyleV2-QIE-2509-Lora-bf16.safetensors). 
