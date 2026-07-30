@@ -27,7 +27,7 @@ Given a content reference and a style reference, content-preserving style transf
 - March, 2026: We finished training of TeleStyleV2.
 ## Schedule
 
-
+- [x] Release TeleStyleV2 SenseNovaU1 SFT model.
 - [ ] Release TeleStyleV2 FLUX 2 models.
 - [ ] Release TeleStyleV2-QIE2511-Full models.
 - [x] Release TeleStyleV2-QIE2511-Lora models.
@@ -74,8 +74,8 @@ If you find TeleStyle useful in your research, please light a star for the proje
 ```bibtex
 @article{telestylev2,
   title={TeleStyle V2: Beyond Content-Preserving Style Transfer with Self-Distillation and Distribution-Matching-Distillation},
-  author={Shiwen Zhang, Yifan Xu, Haibin Huang, Chi Zhang, Xuelong Li},
-  journal={TeleAI},
-  year={2026},
+  author={Zhang, Shiwen and Xu, Yifan and Huang, Haibin and Zhang, Chi and Li, Xuelong},
+  journal={arXiv preprint arXiv:2606.20709},
+  year={2026}
 }
 ```
