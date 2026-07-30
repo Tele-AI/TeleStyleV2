@@ -2,7 +2,7 @@ import gradio as gr
 import numpy as np
 import random
 import torch
-import spaces
+#import spaces
 
 from PIL import Image
 #from diffsynth.pipelines.qwen_image import QwenImagePipeline, ModelConfig
@@ -82,7 +82,7 @@ device = "cuda" if torch.cuda.is_available() else "cpu"
 MAX_SEED = np.iinfo(np.int32).max
 
 
-@spaces.GPU(size="xlarge")
+#@spaces.GPU(size="xlarge")
 
 
 def infer(
@@ -105,7 +105,7 @@ def infer(
 
     
     content_text_input='describe main objects (fewer than 3) with separated words, each word is separated by comma,  the total number of words is strictly fewer than 3'
-    style_text_input='describe only the artistic style, material and stroke, lighting, color in 5 words, not objects.'
+    style_text_input='describe only the artistic style, material, stroke in 5 words, not objects.'
     #pipe.text_encoder.eval()
     content_prompt=''
     style_prompt=''
@@ -296,7 +296,9 @@ _HEADER_ = '''
 </div>
 
 
-<p style="font-size: 1rem; margin-bottom: 1.5rem;">Paper: <a href='https://witcherofresearch.github.io/TeleStyleV2' target='_blank'>TeleStyle V2: Beyond Content-Preserving Style Transfer with Self-Distillation and Distribution-Matching-Distillation</a> | Codes: <a href='https://github.com/Tele-AI/TeleStyleV2' target='_blank'>GitHub</a></p>
+<p style="font-size: 1rem; margin-bottom: 1.5rem;">Paper: <a href='https://witcherofresearch.github.io/TeleStyleV2' target='_blank'>TeleStyle V2: Beyond Content-Preserving Style Transfer with Self-Distillation and Distribution-Matching-Distillation</a> | Codes: <a href='https://github.com/Tele-AI/TeleStyleV2' target='_blank'>GitHub</a>
+</p>
+<p style="font-size: 1rem; margin-bottom: 1.5rem;">Please light a star for the <a href='https://github.com/Tele-AI/TeleStyleV2' target='_blank'>Code</a> if you find the demo useful, thank you.</p>
 <p style="font-size: 1rem; margin-bottom: 1.5rem;">Update: prompt enhancer provided, and the model supports content ref/style ref only input, which means you could use the model as an image editing model and style transfer model at the same time. So you don't have to provide a style reference now, the model also accepts prompt for style transfer, which makes the model more flexible. If you choose infer with content/style prompt, do not forget to clean the prompt box when you run new  inference.</p>
 
 <p style="font-size: 1rem; margin-bottom: 1.5rem;">If you encounter an Error with this demo, the most possible reason is ZeroGPU out-of-memory and the solution is to decrease the Min Edge of the generated image from 1024 to a lower value.  </p>
